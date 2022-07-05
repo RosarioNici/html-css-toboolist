@@ -27,3 +27,32 @@ header {
     font-size: xx-large;
     color: hsl(213deg 79% 11%);
 }
+
+#button1 {
+    background-color: hsl(204deg 86% 61%);
+    color: aliceblue;
+    border-radius: 5px;
+    border: solid 0px;
+    width: 80px;
+    height: 30px;
+}
+
+#button2 {
+    border: solid 1px rgb(199, 198, 198);
+    border-radius: 5px;
+    height: 28px;
+    width: 90px;
+    background-color: white;
+    color: rgb(199, 198, 198);
+    position: absolute;
+    top: 50%;
+}
+
+.button {
+    background-color: bisque;
+    height: 80px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: 150px;
+    position: relative;
+}
