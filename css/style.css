@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+}
+
+header {
+    position: relative;
+    background-color: aliceblue;
+    height: 70px;
+}
+
+#imglogo {
+    width: 50px;
+    position: absolute;
+    left: 15px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+#toboo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 17px;
+    left: 70px;
+    margin: 0;
+    font-size: xx-large;
+    color: hsl(213deg 79% 11%);
+}
