@@ -126,3 +126,57 @@ h2 {
     margin-left: 50px;
     padding-top: 10px;
 }
+
+.editorial {
+    color: aliceblue;
+    font-size: small;
+    padding: 5px;
+    background-color: hsl(203deg 80% 59%);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 7px;
+}
+
+.sales {
+    color: aliceblue;
+    font-size: small;
+    padding: 5px;
+    background-color: hsl(69deg 68% 47%);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 7px;
+}
+
+.website {
+    color: aliceblue;
+    font-size: small;
+    padding: 5px;
+    background-color: hsl(328deg 60% 62%);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 7px;
+}
+
+.mobile {
+    color: aliceblue;
+    font-size: small;
+    padding: 5px;
+    background-color: hsl(34deg 88% 57%);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 7px;
+}
+
+.recruting {
+    color: aliceblue;
+    font-size: small;
+    padding: 5px;
+    background-color: hsl(165deg 42% 57%);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 7px;
+}
+
+.goals {
+    color: aliceblue;
+    font-size: small;
+    padding: 5px;
+    background-color: hsl(262deg 68% 67%);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 7px;
+}
