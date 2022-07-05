@@ -1,10 +1,16 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 body {
     margin: 0px;
+    background-color: hsl(200deg 20% 97%);
 }
 
 header {
     position: relative;
-    background-color: aliceblue;
+    background-color: white;
     height: 70px;
 }
 
@@ -35,6 +41,9 @@ header {
     border: solid 0px;
     width: 80px;
     height: 30px;
+    position: absolute;
+    top: 30%;
+    left: 60px;
 }
 
 #button2 {
@@ -45,14 +54,51 @@ header {
     background-color: white;
     color: rgb(199, 198, 198);
     position: absolute;
-    top: 50%;
+    top: 31%;
+    left: 150px;
 }
 
 .button {
-    background-color: bisque;
+    background-color: hsl(0deg 0% 100%);
     height: 80px;
-    width: 1200px;
+    width: 1300px;
     margin-top: 10px;
     margin-left: 150px;
     position: relative;
+}
+
+main {
+    background-color: hsl(200deg 20% 97%);
+    padding-top: 40px;
+
+}
+
+h2 {
+    color: hsl(222deg 9% 29%);
+}
+
+.list {
+    width: 1300px;
+    background-color: white;
+    margin-left: 150px;
+
+}
+
+#task {
+    position: absolute;
+
+    top: 40%;
+}
+
+.check {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.listp {
+    margin-left: 10px;
+    color: hsl(222deg 9% 29%);
+    ;
 }
