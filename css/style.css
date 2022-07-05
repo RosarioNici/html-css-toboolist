@@ -97,6 +97,13 @@ h2 {
     padding: 3px;
 }
 
+.cross {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 3px;
+}
+
 .listp {
     margin-left: 10px;
     color: hsl(222deg 9% 29%);
