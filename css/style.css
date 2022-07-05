@@ -34,6 +34,12 @@ header {
     color: hsl(213deg 79% 11%);
 }
 
+#button-section {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 #button1 {
     background-color: hsl(204deg 86% 61%);
     color: aliceblue;
@@ -81,11 +87,17 @@ h2 {
     width: 1300px;
     background-color: white;
     margin-left: 150px;
+    height: 650px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-top: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
 }
 
 #task {
     position: absolute;
+    margin-top: 30px;
 
     top: 40%;
 }
@@ -108,4 +120,9 @@ h2 {
     margin-left: 10px;
     color: hsl(222deg 9% 29%);
     ;
+}
+
+.list-section {
+    margin-left: 50px;
+    padding-top: 10px;
 }
